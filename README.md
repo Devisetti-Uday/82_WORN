@@ -10,8 +10,9 @@
 
 2. Tech Stack
   1.Frontend: HTML, CSS, JavaScript
-  2.Backend: Django 
+  2.Backend: Django
+  3. Database: sqlite 
 
-3. Use Cases
+4. Use Cases
   1.Students looking to sell unused academic items
   2.Buyers searching for affordable academic materials
