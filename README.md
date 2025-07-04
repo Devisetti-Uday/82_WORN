@@ -9,7 +9,7 @@
   4.Mobile-responsive layout 
 
 2. Tech Stack
-  1.Frontend: HTML, CSS, JavaScript
+  1.Frontend: HTML, CSS, JavaScript, Bootstrap
   2.Backend: Django
   3. Database: sqlite 
 
