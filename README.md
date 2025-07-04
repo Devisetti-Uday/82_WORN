@@ -3,15 +3,15 @@
 82_WORN is a simple, student-centric marketplace web application where users can buy and sell educational resources like textbooks, aprons, calculators, and student projects. The platform helps students save money by reusing items instead of buying new ones.
 
 1. Features
-  Buy and sell used student essentials
-  Categories like textbooks, aprons, projects, and more
-  Clean UI using HTML, CSS 
-  Mobile-responsive layout 
+  1.Buy and sell used student essentials
+  2.Categories like textbooks, aprons, projects, and more
+  3.Clean UI using HTML, CSS 
+  4.Mobile-responsive layout 
 
 2. Tech Stack
-  Frontend: HTML, CSS, JavaScript
-  Backend: Django 
+  1.Frontend: HTML, CSS, JavaScript
+  2.Backend: Django 
 
 3. Use Cases
-  Students looking to sell unused academic items
-  Buyers searching for affordable academic materials
+  1.Students looking to sell unused academic items
+  2.Buyers searching for affordable academic materials
