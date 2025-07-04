@@ -13,6 +13,6 @@
   2.Backend: Django
   3. Database: sqlite 
 
-4. Use Cases
+3. Use Cases
   1.Students looking to sell unused academic items
   2.Buyers searching for affordable academic materials
