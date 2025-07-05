@@ -11,7 +11,7 @@
 2. Tech Stack
    1.Frontend: HTML, CSS, JavaScript, Bootstrap
    2.Backend: Django
-   3. Database: Postgresql
+   3. Database: Postgresql, Cloudinary
 
 3. Use Cases
    1.Students looking to sell unused academic items
