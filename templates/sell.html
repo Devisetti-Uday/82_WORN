@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %} 
+{% block title %} {% endblock title %} 
+{% block body %}
+  <div class="container mt-1" style="max-width: 600px;">
+    <h2 class="mb-3 text-center">Sell Your Item</h2>
+
+    <form method="POST" enctype="multipart/form-data" class="border p-4 rounded shadow-sm bg-light">
+      {% csrf_token %}
+        <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input class="form-control" type="text" name="name" id="name" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input class="form-control" type="tel" name="phone" id="phone" pattern="[0-9]{10}" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input class="form-control" type="email" name="email" id="mail" required>
+        </div>
+
+      <div class="mb-3">
+        <label for="item" class="form-label">Item</label>
+        <select class="form-select" name="item" id="item" required>
+          <option value="" selected disabled>Select an item</option>
+          <option value="calculator">Casino-Calculator</option>
+          <option value="apron">Apron</option>
+          <option value="etb">English Text-book</option>
+          <option value="project">Project</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="image" class="form-label">Upload Image</label>
+        <input class="form-control" type="file" id="image" name="image" accept="image/*" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="price" class="form-label">Price (₹)</label>
+        <input class="form-control" type="number" name="price" id="price" min="1" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <input class="form-control" type="text" name="description" id="description" maxlength="25">
+      </div>
+
+      <div class="d-grid">
+        <button type="submit" class="btn btn-warning">Submit</button>
+      </div>
+    </form>
+  </div>
+{% endblock body %}
